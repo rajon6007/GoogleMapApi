@@ -92,7 +92,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 it.let {
                     updateMapLocation(it)
                 }
-                
+
             }
             startLocationUpdates()
         }
